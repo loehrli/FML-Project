@@ -1,0 +1,303 @@
+2021-03-24 08:23:28,337 [collect_coins_agent_1_wrapper] DEBUG: Calling setup on callback.
+2021-03-24 08:23:28,337 [collect_coins_agent_1_code] INFO: Loading model from saved state.
+2021-03-24 08:23:28,341 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#setup in 0.004s.
+2021-03-24 08:23:28,444 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:28,445 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:28,447 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 08:23:28,544 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:28,545 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:28,545 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:28,645 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:28,645 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:28,646 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:28,745 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:28,745 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:28,746 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:28,845 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:28,845 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:28,845 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:28,945 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:28,945 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:28,945 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:29,045 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:29,045 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:29,046 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:29,145 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:29,146 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:29,146 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:29,261 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:29,261 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:29,262 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:29,351 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:29,351 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:29,352 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:29,451 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:29,452 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:29,452 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:29,552 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:29,552 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:29,552 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:29,852 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:29,853 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:29,853 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:29,952 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:29,953 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:29,953 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:30,053 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,053 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,054 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:30,174 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,174 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,175 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:30,267 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,267 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,268 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:30,363 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,363 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,364 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:30,463 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,464 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,464 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:30,564 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,564 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,565 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:30,664 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,665 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,665 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:30,764 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,765 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,765 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:30,884 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,884 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,884 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:30,974 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:30,974 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:30,974 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:31,074 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,074 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,074 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:31,174 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,174 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,175 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:31,274 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,275 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,275 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:31,374 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,375 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,378 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.004s.
+2021-03-24 08:23:31,475 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,475 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,475 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:31,575 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,575 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,576 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:31,692 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,692 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,693 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:31,783 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,783 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,784 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:31,883 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,883 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,884 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:31,983 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:31,983 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:31,984 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:32,083 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,084 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,084 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:32,183 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,184 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,184 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:32,284 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,284 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,284 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:32,402 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,402 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,402 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:32,490 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,490 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,490 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:32,590 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,590 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,591 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:32,691 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,691 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,691 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:32,791 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,791 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,792 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:32,891 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,891 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,892 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:32,991 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:32,992 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:32,992 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:33,102 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:33,103 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:33,106 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.003s.
+2021-03-24 08:23:33,196 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:33,196 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:33,197 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:33,296 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:33,297 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:33,297 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:33,397 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:33,398 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:33,398 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:33,497 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:33,497 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:33,497 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:33,597 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:33,598 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:33,598 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:33,698 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:33,698 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:33,698 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:33,810 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:33,811 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:33,811 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:33,903 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:33,904 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:33,904 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:34,003 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,004 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,004 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:34,104 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,104 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,104 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:34,204 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,204 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,205 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:34,304 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,305 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,305 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:34,404 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,410 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,416 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 08:23:34,514 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,514 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,515 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:34,610 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,610 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,611 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:34,710 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,710 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,710 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:34,810 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,810 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,811 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:34,911 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:34,911 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:34,911 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:35,011 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,011 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,021 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.010s.
+2021-03-24 08:23:35,122 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,127 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,134 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.006s.
+2021-03-24 08:23:35,211 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,211 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,211 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:35,319 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,319 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,319 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:35,417 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,417 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,418 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:35,517 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,517 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,518 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:35,617 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,617 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,618 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:35,717 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,718 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,718 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:35,818 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,818 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,819 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:35,918 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:35,918 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:35,918 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,029 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,029 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,030 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,123 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,129 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,129 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,223 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,224 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,224 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,324 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,324 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,325 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,424 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,424 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,425 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,524 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,524 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,525 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,638 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,639 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,639 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,729 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,729 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,730 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,829 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,829 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,830 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:36,930 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:36,930 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:36,931 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:37,030 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,030 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,031 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:37,130 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,130 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,131 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:37,230 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,231 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,231 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:37,339 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,340 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,340 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:37,436 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,436 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,437 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:37,536 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,537 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,537 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:37,636 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,637 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,637 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:37,736 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,737 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,737 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:37,837 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,837 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,838 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:37,957 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:37,958 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:37,958 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:38,049 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:38,049 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:38,049 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:38,147 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:38,148 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:38,148 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:38,248 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:38,248 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:38,249 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:38,348 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:38,349 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:38,349 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:38,448 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:38,448 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:38,449 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.000s.
+2021-03-24 08:23:38,566 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:38,567 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:38,567 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
+2021-03-24 08:23:38,655 [collect_coins_agent_1_wrapper] DEBUG: Calling act on callback.
+2021-03-24 08:23:38,655 [collect_coins_agent_1_code] DEBUG: Querying model for action.
+2021-03-24 08:23:38,656 [collect_coins_agent_1_wrapper] DEBUG: Got result from callback#act in 0.001s.
