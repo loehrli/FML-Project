@@ -2,6 +2,7 @@ import sys
 import threading
 from argparse import ArgumentParser
 from time import sleep, time
+import random
 
 import settings as s
 from environment import BombeRLeWorld, GenericWorld
@@ -97,60 +98,133 @@ def main(args):
     t.daemon = True
     t.start()
 
-    # Run one or more games
-    for _ in tqdm(range(args.n_rounds)):
-        if not world.running:
-            world.ready_for_restart_flag.wait()
-            world.ready_for_restart_flag.clear()
-            world.new_round()
 
-        # First render
-        if has_gui:
-            world.render()
-            pygame.display.flip()
-
-        round_finished = False
-        last_frame = time()
-        user_inputs.clear()
-
-        # Main game loop
-        while not round_finished:
-            if has_gui:
-                # Grab GUI events
-                for event in pygame.event.get():
-                    if event.type == pygame.QUIT:
-                        if world.running:
-                            world.end_round()
-                        world.end()
-                        return
-                    elif event.type == pygame.KEYDOWN:
-                        key_pressed = event.key
-                        if key_pressed in (pygame.K_q, pygame.K_ESCAPE):
-                            world.end_round()
+    if args.train == 1:
+        for x in range(1, 15): #!
+            for y in range(1, 15):
+                print('training for coin position:', x,y)
+                print(world.arena)
+                if world.arena[x,y] != -1:
+                    # Run one or more games
+                    #! write current coin position
+                    with open('coin.txt', 'w') as doc: #!
+                        print(x, y)
+                        doc.write(str(x) + '\t' + str(y)) #!
+                    for _ in tqdm(range(args.n_rounds)):
+                        
                         if not world.running:
-                            round_finished = True
-                        # Convert keyboard input into actions
-                        if s.INPUT_MAP.get(key_pressed):
-                            if args.turn_based:
-                                user_inputs.clear()
-                            user_inputs.append(s.INPUT_MAP.get(key_pressed))
+                            world.ready_for_restart_flag.wait()
+                            world.ready_for_restart_flag.clear()
+                            world.new_round(x,y) #! added x and y
+                            #if invalid == True: #! error, coin would be placed on wall
+                            #    invalid_coin_position = True
+                            #    break
 
-                # Render only once in a while
-                if time() - last_frame >= 1 / args.fps:
-                    world.render()
-                    pygame.display.flip()
-                    last_frame = time()
+                        # First render
+                        if has_gui:
+                            world.render()
+                            pygame.display.flip()
+
+                        round_finished = False
+                        last_frame = time()
+                        user_inputs.clear()
+
+                        # Main game loop
+                        while not round_finished:
+                            if has_gui:
+                                # Grab GUI events
+                                for event in pygame.event.get():
+                                    if event.type == pygame.QUIT:
+                                        if world.running:
+                                            world.end_round()
+                                        world.end()
+                                        return
+                                    elif event.type == pygame.KEYDOWN:
+                                        key_pressed = event.key
+                                        if key_pressed in (pygame.K_q, pygame.K_ESCAPE):
+                                            world.end_round()
+                                        if not world.running:
+                                            round_finished = True
+                                        # Convert keyboard input into actions
+                                        if s.INPUT_MAP.get(key_pressed):
+                                            if args.turn_based:
+                                                user_inputs.clear()
+                                            user_inputs.append(s.INPUT_MAP.get(key_pressed))
+
+                                # Render only once in a while
+                                if time() - last_frame >= 1 / args.fps:
+                                    world.render()
+                                    pygame.display.flip()
+                                    last_frame = time()
+                                else:
+                                    sleep_time = 1 / args.fps - (time() - last_frame)
+                                    if sleep_time > 0:
+                                        sleep(sleep_time)
+                            elif not world.running:
+                                round_finished = True
+                            else:
+                                # Non-gui mode, check for round end in 1ms
+                                sleep(0.001)
+                    world.end()
+    else:
+        x = random.randint(1, 15)
+        y = random.randint(1, 15)
+        while world.arena[x, y] == -1:
+            x = random.randint(1, 15)
+            y = random.randint(1, 15)
+
+        for _ in tqdm(range(args.n_rounds)):
+                        
+            if not world.running:
+                world.ready_for_restart_flag.wait()
+                world.ready_for_restart_flag.clear()
+                world.new_round(x, y, standard=1)
+            # First render
+            if has_gui:
+                world.render()
+                pygame.display.flip()
+
+            round_finished = False
+            last_frame = time()
+            user_inputs.clear()
+
+            # Main game loop
+            while not round_finished:
+                if has_gui:
+                    # Grab GUI events
+                    for event in pygame.event.get():
+                        if event.type == pygame.QUIT:
+                            if world.running:
+                                world.end_round()
+                            world.end()
+                            return
+                        elif event.type == pygame.KEYDOWN:
+                            key_pressed = event.key
+                            if key_pressed in (pygame.K_q, pygame.K_ESCAPE):
+                                world.end_round()
+                            if not world.running:
+                                round_finished = True
+                            # Convert keyboard input into actions
+                            if s.INPUT_MAP.get(key_pressed):
+                                if args.turn_based:
+                                    user_inputs.clear()
+                                user_inputs.append(s.INPUT_MAP.get(key_pressed))
+
+                    # Render only once in a while
+                    if time() - last_frame >= 1 / args.fps:
+                        world.render()
+                        pygame.display.flip()
+                        last_frame = time()
+                    else:
+                        sleep_time = 1 / args.fps - (time() - last_frame)
+                        if sleep_time > 0:
+                            sleep(sleep_time)
+                elif not world.running:
+                    round_finished = True
                 else:
-                    sleep_time = 1 / args.fps - (time() - last_frame)
-                    if sleep_time > 0:
-                        sleep(sleep_time)
-            elif not world.running:
-                round_finished = True
-            else:
-                # Non-gui mode, check for round end in 1ms
-                sleep(0.001)
-
-    world.end()
+                    # Non-gui mode, check for round end in 1ms
+                    sleep(0.001)
+        world.end()
 
 
 if __name__ == '__main__':

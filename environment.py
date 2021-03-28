@@ -20,6 +20,8 @@ from items import Coin, Explosion, Bomb
 WorldArgs = namedtuple("WorldArgs",
                        ["no_gui", "fps", "turn_based", "update_interval", "save_replay", "replay", "make_video", "continue_without_training"])
 
+#coin_x = 0
+#coin_y = 0
 
 class Trophy:
     coin_trophy = pygame.transform.smoothscale(pygame.image.load('assets/coin.png'), (15, 15))
@@ -303,7 +305,7 @@ class BombeRLeWorld(GenericWorld):
                 name = agent_dir
             self.add_agent(agent_dir, name, train=train)
 
-    def new_round(self):
+    def new_round(self, coin_x=1, coin_y=1, standard=0):
         if self.running:
             self.logger.warning('New round requested while still running')
             self.end_round()
@@ -331,12 +333,19 @@ class BombeRLeWorld(GenericWorld):
                     self.arena[x, y] = -1
 
         # Starting positions
-        start_positions = [(1, 1), (1, s.ROWS - 2), (s.COLS - 2, 1), (s.COLS - 2, s.ROWS - 2)]
-        random.shuffle(start_positions)
-        for (x, y) in start_positions:
-            for (xx, yy) in [(x, y), (x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)]:
-                if self.arena[xx, yy] == 1:
-                    self.arena[xx, yy] = 0
+        x = random.randint(1,15)
+        y = random.randint(1,15)
+        
+        #start_positions = [(1, 1), (1, s.ROWS - 2), (s.COLS - 2, 1), (s.COLS - 2, s.ROWS - 2)]
+        #random.shuffle(start_positions)
+        #for (x, y) in start_positions:
+            #for (xx, yy) in [(x, y), (x - 1, y), (x + 1, y), (x, y - 1), (x, y + 1)]:
+        while self.arena[x, y] == -1: #!
+            x = random.randint(1,15)
+            y = random.randint(1,15)
+            if self.arena[x, y] == 1:
+                self.arena[x, y] = 0
+        start_positions = [(x,y)]
 
         # Distribute coins evenly
         self.coins = []
@@ -357,7 +366,11 @@ class BombeRLeWorld(GenericWorld):
                 while True:
                     x, y = np.random.randint(1 + 5 * i, 6 + 5 * i), np.random.randint(1 + 5 * j, 6 + 5 * j)
                     if n_crates == 0 and self.arena[x, y] == 0:
-                        self.coins.append(Coin((x, y)))
+                        if standard == 0:
+                            self.coins = [Coin((coin_x, coin_y))]
+                        elif standard == 1:
+                            
+                            self.coins.append(Coin((x, y)))
                         self.coins[-1].collectable = True
                         break
                     elif self.arena[x, y] == 1:
