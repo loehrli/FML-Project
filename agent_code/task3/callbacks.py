@@ -31,13 +31,7 @@ def setup(self):
     global Q_matrices
     if self.train or not os.path.isfile("my-saved-model.pt"):
         self.logger.info("Setting up model from scratch.")
-        #with open("q_matrices.pt") as file:
-            #self.q_matrices = pickle.load(file)
-        #self.model = weights / weights.sum()
-        with open("q_matrices.pt", "rb") as file:
-            self.model = pickle.load(file)
-            Q_matrices = self.model
-        with open("backup.pt", "rb") as file:
+        with open("backup.pt", "rb") as file: # Load older model and continue training
             self.model = pickle.load(file)
             self.global_policy_net, self.global_target_net = self.model
     else:
@@ -45,26 +39,20 @@ def setup(self):
         with open("my-saved-model.pt", "rb") as file:
             self.model = pickle.load(file)
             self.global_policy_net, self.global_target_net = self.model
-        with open("q_matrices.pt", "rb") as file:
-            self.model = pickle.load(file)
-            Q_matrices = self.model
 
 performed_actions = 0
 
 def select_action(self, state):
     global steps_done
-    EPS_START = 0.9
-    EPS_END = 0.1
+    start = 0.9
+    end = 0.1
     EPS_DECAY = 10000
     sample = random.random()
-    eps_threshold = EPS_END + (EPS_START - EPS_END) * \
+    eps_threshold = end + (start - end) * \
         math.exp(-1. * steps_done / EPS_DECAY)
     steps_done += 1
     
-    #sample = 1
     eps_threshold = 0.0
-
-    print(eps_threshold)
 
     global performed_actions
     if performed_actions == 10:
@@ -75,18 +63,13 @@ def select_action(self, state):
 
     if sample > eps_threshold:
         with torch.no_grad():
-            # t.max(1) will return largest column value of each row.
-            # second column on max result is index of where max element was
-            # found, so we pick action with the larger expected reward.
             action = self.global_policy_net(state_to_features(state)).max(1)[1].view(1, 1)
-            #print('trained:', action)
             
             if action == torch.tensor([[4]]):
                 performed_actions = 0
             return action
     else:
         action = torch.tensor([[random.randrange(n_actions)]], device=device, dtype=torch.long)
-        #print('random:', action)
         if action == torch.tensor([[4]]):
             performed_actions = 0
         return action
@@ -131,23 +114,20 @@ def state_to_features(game_state: dict) -> np.array:
     if game_state is None:
         return None        
     
+    # Here you can find some of the features that we abandoned
+
     # Q MATRICES
     #Q = np.full((17, 17), 4)
     #if len(game_state['coins']) != 0:
     #    coin = game_state['coins'][0]
     #    Q = Q_matrices[coin[1], coin[0]]
     #    Q = Q.argmax(axis=2)
-        
-    # For example, you could construct several channels of equal shape, ...
 
     # EXPLOSION MAP
     explosion_map = np.array(game_state['explosion_map'])
     explosion_map = explosion_map.transpose()
 
     position = game_state['self'][3]
-    #arena[position[1], position[0]] = 10  # -1=block, 0=free, 1=crate
-    #Q[position[1], position[0]] = 10
-    #explosion_map[position[1], position[0]] = 10
 
     # POSITIONS 
     positions = np.full((17,17), 0)
@@ -215,11 +195,6 @@ def state_to_features(game_state: dict) -> np.array:
     channels.append(positions)
     #channels.append(coins_matrix)
     #channels.append(bomb_matrix)
-    #channels.append(...)
-    # concatenate them as a feature tensor (they must have the same shape), ...
-    stacked_channels = np.stack(channels)
-    # and return them as a vector
-    #stacked_channels.reshape(-1)
 
     tensor_channels = torch.FloatTensor(channels)
     
